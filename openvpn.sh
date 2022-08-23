@@ -244,7 +244,7 @@ openssl req -x509 -nodes -days 9999 -newkey rsa:2048 -keyout /etc/nginx/ssl/ngin
 
 #Configure the web server with the lighttpd.conf from GitHub
 mv  /etc/nginx/sites-available/default /etc/nginx/sites-available/default.$$
-wget -O /etc/nginx/sites-available/default https://raw.githubusercontent.com/theonemule/simple-openvpn-server/master/default
+wget -O /etc/nginx/sites-available/default https://raw.githubusercontent.com/BrunuhVille/simple-openvpn-server/master/default
 
 #install the webserver scripts
 rm /var/www/html/*
